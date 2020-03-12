@@ -1,0 +1,22 @@
+{
+  "name": "crud-con-Nodejs-y-Mysql",
+  "version": "1.0.0",
+  "description": "1. Para iniciar el proyecto ejecutar\r ```bash\r npm init --yes\r ```\r 2. instalando los modulos\r ```bash\r npm install express mysql express-myconnection morgan ejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
